@@ -1,0 +1,101 @@
+body {
+    background: url('../images/bg.jpg') center no-repeat;
+    background-size: cover;
+    margin: 0;
+    height: 80vh;
+}
+.logo {
+    margin-top: 20vh;
+    text-align: center;
+    color: #97d16d;
+    font-family: PermanentMarker;
+    font-size: 40px;
+}
+.login {
+    margin-top: 30px;
+    padding: 20px;
+}
+.login .row {
+    text-align: center;
+    margin: 0 auto;
+    margin: 10px 10%;
+}
+input[type="text"], input[type="password"] {
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    border: var(--color-border) 1px solid;
+    border-radius: 0;
+    font-family: Martel;
+    font-size: 20px;
+    color: var(--color-grey);
+}
+input::placeholder {
+    font-family: Martel;
+    font-size: 20px;
+    color: var(--color-border);
+}
+input:focus {
+    outline: none;
+}
+input[type="checkbox"] {
+    font-size: 12px;
+    display: inline-block;
+}
+#desc {
+    color: var(--color-grey);
+    font-family: Martel;
+    font-size: 12px;
+}
+#term-link {
+    color: #97d16d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#btn-login {
+    margin-top: 30px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    font-family: Martel;
+    font-size: 24px;
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    border-radius: 20px;
+}
+.footer {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    font-family: Martel;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+/* ===== Model ===== */
+.term-of-use {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(100, 100, 100, 0.7);
+    /* display: flex; */
+    justify-content: center;
+    display: none;
+}
+.model {
+    margin-top: 20vh;
+    width: 80%;
+    background-color: #FFFFFF;
+    border: var(--color-border) 1px solid;
+    padding: 20px;
+    font-size: 12px;
+    height: 50vh;
+}
+.model .title {
+    width: 100%;
+    text-align: center;
+    font-family: Martel;
+    color: #97d16d;
+    font-size: 20px;
+}

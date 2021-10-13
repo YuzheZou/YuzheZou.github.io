@@ -1,0 +1,121 @@
+#back {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/back.png') center no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+
+#user-info {
+    text-align: left;
+    padding: 10px 20px;
+    justify-content: left;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border: var(--color-border), 1px solid;
+    border-radius: 25px;
+    background: url("../images/avatar1.jpg") center no-repeat;
+    background-size: 110%;
+}
+.username {
+    width: 150px;
+    height: 50px;
+    color: #333333;
+    font-family: Martel;
+    font-size: 24px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+.edit-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('../images/edit.png') center no-repeat;
+    background-size: 100%;
+}
+#avatar-edit {
+    position: absolute;
+    top: 93px;
+    left: 60px;
+}
+#name-edit {
+    position: absolute;
+    top: 78px;
+    left: 210px;
+}
+
+.detail-info {
+    justify-content: left;
+}
+.info-label {
+    font-family: Martel;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    width: 100px;
+    margin: 0 20px;
+}
+.info-data {
+    font-family: Martel;
+    font-size: 20px;
+    color: var(--color-grey);
+    width: 150px;
+    text-align: left;
+}
+#info-edit {
+    margin-top: 5px;
+}
+#info-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: url('../images/info.png') center no-repeat;
+    background-size: 100%;
+    margin-right: 5px;
+}
+
+/* ===== Travel ===== */
+.travel-title {
+    font-family: Martel;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+.travel-desc {
+    font-family: Martel;
+    font-size: 12px;
+    color: var(--color-secondary);
+}
+#travel {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.form-row {
+    display: flex;
+    line-height: 40px;
+    font-family: Martel;
+    font-size: 18px;
+    color: #333333;
+    padding: 0 5px;
+    text-align: center;
+}
+.form-row.dark {
+    background-color: var(--color-secondary);
+}
+.form-row .form-date {
+    display: inline-block;
+    width: 30vw;
+}
+.form-row .form-place {
+    display: inline-block;
+    width: 60vw;
+    font-size: 15px!important;
+}

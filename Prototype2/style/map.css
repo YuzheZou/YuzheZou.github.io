@@ -1,0 +1,74 @@
+.container {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#map {
+    height: 100vh;
+}
+.nav-item.center {
+    background-color: #f1d1a9;
+}
+.leaflet-control {
+    display: none;
+}
+#btn-main {
+    position: fixed;
+    left: 20px;
+    bottom: 80px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    box-shadow: #666666 0 0 6px;
+    background-color: #F0F0F0;
+    z-index: 500;
+    text-align: center;
+}
+.btn-icon {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 9px;
+    background-size: 100%;
+    vertical-align: middle;
+}
+#main-icon {
+    background-image: url("../images/up.png");
+}
+.btn-menu {
+    position: fixed;
+    left: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: #666666 0 0 6px;
+    background-color: #F0F0F0;
+    z-index: 500;
+    display: none;
+}
+#btn-area {
+    bottom: 140px;
+}
+#btn-density {
+    bottom: 200px;
+}
+#btn-security {
+    bottom: 260px;
+}
+#icon-risk {
+    background-image: url("../images/virus.png");
+}
+#icon-density {
+    background-image: url("../images/density.png");
+}
+#icon-security {
+    background-image: url("../images/security.png");
+}
+.btn-desc {
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+    font-family: Martel;
+    font-size: 15px;
+    color: #666666;
+}

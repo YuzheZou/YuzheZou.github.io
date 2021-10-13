@@ -1,0 +1,39 @@
+.container {
+    margin: 48px 0;
+}
+#back {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/back.png') center no-repeat;
+    background-size: 100%;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 999;
+}
+.title {
+    font-family: Martel;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    margin: 10px 6px;
+}
+.desc {
+    font-family: Martel;
+    font-size: 12px;
+    color: var(--color-secondary);
+    width: 100%;
+    text-align: left;
+    margin-bottom: -20px;
+    margin-left: 20px;
+}
+.content {
+    font-family: Martel;
+    font-size: 12px;
+    color: #444444;
+    margin: 0 10px;
+    width: 100%;
+    text-align: left;
+    margin-top: -10px;
+}

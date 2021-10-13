@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/service.css">
+</head>
+<body>
+    <div class="header">Services</div>
+    <div class="container">
+        <div class="row" id="tab">
+            <span class="tab selected" id="test" onclick="tabSelect('test')">NAT Reservation</span>
+            <span class="tab" id="vaccine" onclick="tabSelect('vaccine')">Vaccine Reservation</span>
+        </div>
+        <div class="row">
+            <div class="form-item form-label">Appointment Date</div>
+            <div class="form-item"><input type="date" id="appointment-date"></div>
+            <div><span class="btn" id="next1" onclick="nextStep(2)">Next</span></div>
+        </div>
+        <div class="row" id="step2">
+            <span class="seperater-lg"></span>
+            <div class="form-item form-label">Name</div>
+            <div class="form-item"><input type="text" id="name"></div>
+            <div class="form-item form-label">Age</div>
+            <div class="form-item"><input type="number" id="age"></div>
+            <div class="form-item form-label">Gender</div>
+            <div class="form-item">
+                <input type="radio" id="male" name="gender">
+                <label for="male"><span id="icon-male"></span></label>
+                <input type="radio" id="female" name="gender">
+                <label for="female"><span id="icon-female"></span></label>
+            </div>
+            <div class="form-item form-label">Tel</div>
+            <div class="form-item"><input type="number" id="tel"></div>
+            <div><span class="btn" id="next2" onclick="nextStep(3)">Next</span></div>
+        </div>
+        <div class="row" id="step3">
+            <span class="seperater-lg"></span>
+            <div class="form-item form-label">Available Hospitals</div>
+            <div class="form-item">
+                <select name="hospitals" id="hospitals">
+                    <option value="1">Hospital1</option>
+                    <option value="1">Hospital2</option>
+                    <option value="1">Hospital3</option>
+                </select>
+            </div>
+            <div><span class="btn" id="confirm" onclick="confirm()">Confirm Reservation</span></div>
+        </div>
+    </div>
+    <div class="nav">
+        <a href="user.html" class="nav-item">
+            <img src="./images/user.png" alt="" width="25" height="25">
+            <span>Account</span>
+        </a>
+        <a href="map.html" class="nav-item center">
+            <img src="./images/LOCATION.png" alt="" width="35" height="35">
+        </a>
+        <a href="service.html" class="nav-item">
+            <img src="./images/hospital-selected.png" alt="" width="25" height="25">
+            <span>Services</span>
+        </a>
+    </div>
+
+    <script src="./libs/jquery-3.4.1.min.js"></script>
+    <script src="./script/service.js"></script>
+</body>
+</html>
