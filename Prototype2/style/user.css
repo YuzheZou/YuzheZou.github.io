@@ -114,3 +114,12 @@
     border: var(--color-border) 1px solid;
     padding: 10px;
 }
+
+.detail-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 24%;
+    background: url("../images/right.png") center no-repeat;
+    background-size: 100%;
+}
