@@ -27,3 +27,9 @@ $("#help-model").click(function() {
 $("#user-info").click(function() {
     window.location.href = "userinfo.html";
 });
+
+$("#logout").click(function() {
+    if (confirm("Log out?")) {
+        window.location.href = "login.html";
+    }
+});

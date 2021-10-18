@@ -1,7 +1,12 @@
+.container {
+    margin: 50px 0px;
+}
 #user-info {
     text-align: left;
     padding: 10px 20px;
     justify-content: left;
+    background-color: #f4f4f4;
+    border-bottom: var(--color-secondary) 1px solid;
 }
 .avatar {
     width: 50px;
@@ -22,9 +27,9 @@
 }
 
 #tree {
-    margin-top: 11vh;
-    width: 300px;
-    height: 300px;
+    margin-top: 10vh;
+    width: 350px;
+    height: 350px;
     background: url('../images/tree1.png') center no-repeat;
     background-size: 100%;
 }
@@ -41,23 +46,37 @@
     margin-top: 10px;
     text-align: center;
     font-family: Martel;
-    font-size: 30px;
+    font-size: 32px;
     font-weight: bold;
     color: var(--color-primary);
 }
 #desc {
     font-family: Martel;
-    font-size: 12px;
+    font-size: 13px;
     color: var(--color-grey);
 }
-#help {
+.btn-icon {
+    display: inline-block;
     width: 40px;
     height: 40px;
-    background: url('../images/help.png') center no-repeat;
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    border-radius: 20px;
+}
+#help {
+    background-image: url('../images/help.png');
     position: absolute;
     bottom: 80px;
     right: 20px;
+}
+#logout {
+    background-image: url('../images/logout.png');
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background-size: 70%;
+    z-index: 999;
 }
 
 /* ===== Model ===== */
@@ -73,7 +92,7 @@
 }
 #help-model #help-tree {
     position: absolute;
-    top: 68vh;
+    top: 63vh;
     left: 25px;
     width: 310px;
     font-family: Martel;
