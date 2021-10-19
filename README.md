@@ -18,9 +18,9 @@ https://github.com/YuzheZou/404ERROR/issues?q=is%3Aissue+is%3Aclosed<br>
 https://github.com/YuzheZou/404ERROR/wiki<br>
 * Images for Wiki page<br>
 https://github.com/YuzheZou/404ERROR/tree/main/img<br>
-* Code for Prototype 1<br>
+* Prototype 1 Code<br>
 https://github.com/YuzheZou/404ERROR/tree/main/Prototype1<br>
-* Code for Prototype 2<br>
+* Prototype 2 Code<br>
 https://github.com/YuzheZou/404ERROR/tree/main/Prototype2<br>
 
 # Instruction for prototype
