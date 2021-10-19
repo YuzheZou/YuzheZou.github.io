@@ -4,6 +4,10 @@ Prototype 1<br>
 https://yuzhezou.github.io/Prototype1/statistics.html<br>
 Prototype 2<br>
 https://yuzhezou.github.io/Prototype2/login.html<br>
+Kickstart Video<br>
+https://www.youtube.com/watch?v=i8MenZN1q4M&t=3s<br>
+Information Sheet<br>
+https://docs.google.com/document/d/1ILlqJ0-N57MKZ_nOhSBGi_Vy8s7jzB6XtryBO7bzDhs/edit?usp=sharing<br>
 Repository<br>
 https://github.com/YuzheZou/404ERROR<br>
 Task allocation page<br>
