@@ -6,6 +6,8 @@ Prototype 2<br>
 https://yuzhezou.github.io/Prototype2/login.html<br>
 Repository<br>
 https://github.com/YuzheZou/404ERROR<br>
+Task allocation page<br>
+https://github.com/YuzheZou/404ERROR/issues?q=is%3Aissue+is%3Aclosed<br>
 Wiki<br>
 https://github.com/YuzheZou/404ERROR/wiki<br>
 Images for Wiki page<br>
