@@ -4,6 +4,8 @@ Prototype 1<br>
 https://yuzhezou.github.io/Prototype1/statistics.html<br>
 Prototype 2<br>
 https://yuzhezou.github.io/Prototype2/login.html<br>
+Conference Poster<br>
+https://github.com/YuzheZou/404ERROR/blob/main/img/Poster/Error404poster.png<br>
 Kickstart Video<br>
 https://www.youtube.com/watch?v=i8MenZN1q4M&t=3s<br>
 Information Sheet<br>
