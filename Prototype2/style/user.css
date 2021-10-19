@@ -1,0 +1,125 @@
+.container {
+    margin: 50px 0px;
+}
+#user-info {
+    text-align: left;
+    padding: 10px 20px;
+    justify-content: left;
+    background-color: #f4f4f4;
+    border-bottom: var(--color-secondary) 1px solid;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border: var(--color-border), 1px solid;
+    border-radius: 25px;
+    background: url("../images/avatar1.jpg") center no-repeat;
+    background-size: 110%;
+}
+.username {
+    width: 150px;
+    height: 50px;
+    color: #333333;
+    font-family: Martel;
+    font-size: 24px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+#tree {
+    margin-top: 10vh;
+    width: 350px;
+    height: 350px;
+    background: url('../images/tree1.png') center no-repeat;
+    background-size: 100%;
+}
+#emoji {
+    width: 30px;
+    height: 30px;
+    background: url('../images/emoji1.png') center no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 100px;
+    top: 30vh;
+}
+#status {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Martel;
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+#desc {
+    font-family: Martel;
+    font-size: 13px;
+    color: var(--color-grey);
+}
+.btn-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 90%;
+    border-radius: 20px;
+}
+#help {
+    background-image: url('../images/help.png');
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+}
+#logout {
+    background-image: url('../images/logout.png');
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    background-size: 70%;
+    z-index: 999;
+}
+
+/* ===== Model ===== */
+#help-model {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(100, 100, 100, 0.7);
+    /* display: flex; */
+    display: none;
+}
+#help-model #help-tree {
+    position: absolute;
+    top: 63vh;
+    left: 25px;
+    width: 310px;
+    font-family: Martel;
+    font-size: 12px;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: var(--color-border) 1px solid;
+    padding: 10px;
+}
+#help-model #help-emoji {
+    position: absolute;
+    top: 28vh;
+    left: 145px;
+    width: 190px;
+    font-family: Martel;
+    font-size: 12px;
+    color: #333333;
+    background-color: #FFFFFF;
+    border: var(--color-border) 1px solid;
+    padding: 10px;
+}
+
+.detail-icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 24%;
+    background: url("../images/right.png") center no-repeat;
+    background-size: 100%;
+}

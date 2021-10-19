@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/userinfo.css">
+</head>
+<body>
+    <div class="header">User</div>
+    <span id="back"></span>
+    <div class="container">
+        <div class="row" id="user-info">
+            <div class="avatar"></div>
+            <div class="username">John Doe</div>
+        </div>
+        <div>
+            <span class="edit-icon" id="avatar-edit"></span>
+            <span class="edit-icon" id="name-edit"></span>
+        </div>
+        <div class="row detail-info">
+            <span class="info-label">Tel:</span>
+            <span class="info-data">12345678</span>
+            <span class="edit-icon" id="info-edit"></span>
+        </div>
+        <div class="row detail-info">
+            <span class="info-label">ID:</span>
+            <span class="info-data">32123123123</span>
+            <span class="edit-icon" id="info-edit"></span>
+        </div>
+        <div class="row">
+            <span class="seperater-lg"></span>
+        </div>
+        <div class="row">
+            <span class="travel-title">Where I've Been</span>
+        </div>
+        <div class="row">
+            <span class="travel-desc"><span id="info-icon"></span>Click data to report misrecording.</span>
+        </div>
+        <div class="row" id="travel">
+            <div class="form-row">
+                <span class="form-date">29/09/2021</span>
+                <span class="form-place">7-11 in St.xxx</span>
+            </div>
+            <div class="form-row dark">
+                <span class="form-date">01/10/2021</span>
+                <span class="form-place">Meijia Cinema</span>
+            </div>
+            <div class="form-row">
+                <span class="form-date">01/10/2021</span>
+                <span class="form-place">Walmart near xxx campus</span>
+            </div>
+            <div class="form-row dark">
+                <span class="form-date">03/10/2021</span>
+                <span class="form-place">7-11 in St.xxx</span>
+            </div>
+            <div class="form-row">
+                <span class="form-date">29/09/2021</span>
+                <span class="form-place">7-11 in St.xxx</span>
+            </div>
+            <div class="form-row dark">
+                <span class="form-date">01/10/2021</span>
+                <span class="form-place">Meijia Cinema</span>
+            </div>
+            <div class="form-row">
+                <span class="form-date">01/10/2021</span>
+                <span class="form-place">Walmart near xxx campus</span>
+            </div>
+            <div class="form-row dark">
+                <span class="form-date">03/10/2021</span>
+                <span class="form-place">7-11 in St.xxx</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="nav">
+        <a href="user.html" class="nav-item selected">
+            <img src="./images/user.png" alt="" width="30" height="30">
+            <span>Account</span>
+        </a>
+        <a href="map.html" class="nav-item center">
+            <img src="./images/LOCATION.png" alt="" width="40" height="40">
+        </a>
+        <a href="service.html" class="nav-item">
+            <img src="./images/hospital.png" alt="" width="30" height="30">
+            <span>Services</span>
+        </a>
+    </div>
+    
+    <script src="./libs/jquery-3.4.1.min.js"></script>
+    <script src="./script/userinfo.js"></script>
+</body>
+</html>
